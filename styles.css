@@ -1,0 +1,207 @@
+html{
+    background-image: url(https://cdn.hipwallpaper.com/i/87/99/DBwryO.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(107, 37, 28);
+    margin-top: 0%;
+    border-bottom: 2px solid rgb(185, 98, 16);
+    border-right: 2px solid rgb(185, 98, 16);
+    width: 555px;
+    box-shadow: 4px 4px 5px #888888;
+
+}
+h3{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+    margin-top: -30px;
+    color: rgb(107, 37, 28);
+    
+}
+/* THE CONTAINER HOLDS THE GRID LAYOUR
+   IT IS WHERE ALL ITEMS IN THE LIST ARE STORED*/
+.container{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 2fr 2fr 4fr;
+    justify-content: center;
+    
+}
+/*====ITEM ONE======
+This is the first item on the list
+Eeach item has properties on (hover) to
+switch between image and text */
+.phillyprice {
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    margin-top: -150px;
+    background-color: rgb(247, 172, 74);
+    border-radius: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.philly:hover .phillyimg{
+    transition: all 1.8s;
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+.philly:hover .phillyprice{
+    opacity: 1;
+}
+
+/*====ITEM TWO======
+This is the second item on the list
+Eeach item has properties on (hover) to
+switch between image and text */
+.gyroprice {
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    margin-top: -150px;
+    background-color: rgb(247, 172, 74);
+    border-radius: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.gyro:hover .gyroimg{
+    transition: all 1.8s;
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+.gyro:hover .gyroprice{
+    opacity: 1;
+}
+
+/*====ITEM THREE======
+This is the third item on the list
+Eeach item has properties on (hover) to
+switch between image and text */
+.greekchickenprice {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(247, 172, 74);
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+.greekchicken:hover .greekchickenimg{
+    transition: all 1.8s;
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+.greekchicken:hover .greekchickenprice{
+    opacity: 1;
+}
+
+/*====ITEM FOUR======
+This is the fourth item on the list
+Eeach item has properties on (hover) to
+switch between image and text */
+.chickencutletprice {
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    margin-top: -150px;
+    background-color: rgb(247, 172, 74);
+    border-radius: 5%;
+    margin-left: 20px;
+    margin-right: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.chickencutlet:hover .chickencutletimg{
+    transition: all 1.8s;
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+.chickencutlet:hover .chickencutletprice{
+    opacity: 1;
+}
+
+/*====ITEM FIVE======
+This is the firth item on the list
+Eeach item has properties on (hover) to
+switch between image and text */
+.chickenpineappleprice {
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    margin-top: -150px;
+    background-color: rgb(247, 172, 74);
+    border-radius: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.chickenpineapple:hover .chickenpineappleimg{
+    transition: all 1.8s;
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+.chickenpineapple:hover .chickenpineappleprice{
+    opacity: 1;
+}
+
+/*====ITEM SIX======
+This is the sixth item on the list
+Eeach item has properties on (hover) to
+switch between image and text */
+.riceprice {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(247, 172, 74);
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+.rice:hover .riceimg{
+    transition: all 1.8s;
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+.rice:hover .riceprice{
+    opacity: 1;
+}
+
+/*Foot note*/
+footer{
+    text-align: center;
+    background-color: rgb(156, 71, 13);
+    position: relative;
+    color: white;
+    font-size: 18px;
+}
